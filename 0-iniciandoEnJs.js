@@ -47,8 +47,8 @@ function holamundo() {
 
 // El código guardado en ella se ejecuta sólo cuando la ejecutamos
 // La ejecutamos así
-holamundo()
+// holamundo()
 
 // No tiene que estar todo dentro de una función
 // El código puede estar libre, como el siguiente console.log
-console.log('Nos vemos en la próxima!')
+// console.log('Nos vemos en la próxima!')
