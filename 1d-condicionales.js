@@ -30,4 +30,24 @@ function condicionales() {
 
     // '' = false
     // ' ' = true
+
+    a = 2
+    console.log({ a })
+
+    if (a === 3) {
+        console.log('a es igual a 3')
+    } else if (a === 2) {
+        console.log('a es igual a 2')
+    } else if (a === 1) {
+        console.log('a es igual a 1')
+    } else {
+        console.log('a no vale ni 3, ni 2, ni 1')
+    }
+
+    if (a == '2') {
+        console.log('a es igual a "2"')
+    }
+
+    console.log('fin de la función')
+
 }
