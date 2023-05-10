@@ -32,4 +32,18 @@ const objetos = () => {
     console.warn(messi.nombre)
     console.error(juan.nombre)
 
+    function Objeto(numero, cadena, booleano) {
+        this.numero = numero
+        this.nombre = cadena
+        this.booleano = booleano
+    }
+
+    const persona = new Objeto(123, 'Luis', true)
+    console.log(persona)
+
+    const persona2 = new Objeto(456, 'Marta', false)
+    console.log(persona2)
+
+    console.log(`El nombre de la persona es ${persona.nombre}`)
+    console.log(`El nombre de la persona es ${persona2.nombre}`)
 }
