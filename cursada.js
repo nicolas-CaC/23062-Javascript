@@ -10,4 +10,5 @@
 // clases2()
 // math()
 // date()
-arrays()
+// arrays()
+// desestructurar()
