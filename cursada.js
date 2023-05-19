@@ -12,3 +12,4 @@
 // date()
 // arrays()
 // desestructurar()
+// dom()
