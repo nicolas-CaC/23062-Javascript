@@ -4,7 +4,7 @@ const cambiarColor = (bloque) => {
 
 const sacarColor = (bloque) => {
     bloque.classList.remove('bloqueColor')
-    console.log('Me retiré')
+    // console.log('Me retiré')
 }
 
 const teclaApretada = (e) => {
